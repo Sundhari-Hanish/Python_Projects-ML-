@@ -26,7 +26,7 @@ consumer_thread.join()
 print("Program finished")
 
 
-# OUTPUT
+# OUTPUT:
 # Produced: Log1
 # Consumed: Log1
 # Produced: Log2
