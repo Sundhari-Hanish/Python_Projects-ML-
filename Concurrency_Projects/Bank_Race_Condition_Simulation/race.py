@@ -13,7 +13,6 @@ def withdraw_without_lock(amount):
         print(f"{threading.current_thread().name} withdrew {amount}. Balance: {balance}")
     else:
         print(f"{threading.current_thread().name} tried to withdraw but insufficient balance.")
-        balance=temp
 print("------ WITHOUT LOCK ------")
 threads = []
 for i in range(10):
